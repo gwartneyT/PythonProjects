@@ -7,4 +7,16 @@ Here's a recap of everything we learned in this chapter:
     The % modulo finds the remainder.
     The ** exponentiation finds the exponent.
     The input() function is used to get user input.
-    The int() function converts a value into an integer numbe
+    The int() function converts a value into an integer number.
+
+# Relational Operators
+
+A lot of the times inside conditions, we are comparing two values. To do so, we need to use a different type of operators called relational operators that compares values:
+
+    == equal to
+    != not equal to
+    > greater than
+    < less than
+    >= greater than or equal to
+    <= less than or equal to
+
