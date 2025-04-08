@@ -1,0 +1,11 @@
+import math # import math function
+
+def pythagorean_theorem(a, b): # define function of pyht.th.
+    return math.sqrt(a**2 + b**2) # math.sqrt is square root function; ** is ^ 
+
+# Example usage:
+a = float(input("Enter side a: ")) # input side A
+b = float(input("Enter side b: ")) # input side B 
+c = pythagorean_theorem(a, b) # c = funtion * a + b
+
+print(f"The hypotenuse is: {c}") # print f string calling C
