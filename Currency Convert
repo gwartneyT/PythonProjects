@@ -1,0 +1,7 @@
+pesos = int(input('What do you have left in pesos? ')) # ask input of pesos
+soles = int(input('What do you have left in soles? ')) # ask input of soels
+reais = int(input('What do you have left in reais? ')) # ask input of reais
+
+total = pesos * 0.00025 + soles * 0.28 + reais * 0.21 # sets total to sum of each currency * conversion rate
+
+print(total)
