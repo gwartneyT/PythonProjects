@@ -1,0 +1,7 @@
+ph = int(input("Enter a PH value (0 - 14):")) # input of a whole number between 1 and 14
+if ph > 7:
+  print("Basic")
+elif ph < 7:
+  print("Acidic")
+else: 
+  print("Neutral")
