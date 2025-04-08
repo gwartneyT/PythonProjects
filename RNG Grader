@@ -1,0 +1,6 @@
+import random # random module
+grade = random.randint(1, 100) # random number btwn 1 - 100
+if grade >= 55: # if greater/= 55 pass
+  print("You passed.")
+else:
+  print("You fail.")
